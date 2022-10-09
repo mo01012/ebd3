@@ -10,15 +10,6 @@
         position: relative;
     }
     
-    .card a {
-        position: absolute;
-        left: 0;
-        right: 0;
-        top: 0;
-        bottom: 0;
-        z-index: 2;
-    }
-    
     .btn:hover,
     .btn:focus {
         background-color: #111;
@@ -112,6 +103,10 @@
         background-image: url(../imgs/we-offer.png);
         background-repeat: no-repeat;
         background-size: cover;
+    }
+    
+    .our-servers .card {
+        margin: 30px;
     }
     
     .our-servers .card-img-top {
