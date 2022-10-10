@@ -17,14 +17,14 @@ $(document).ready(function() {
             }
         }
     })
-    $('.our-client').owlCarousel({
+    $('.ourClient').owlCarousel({
         rtl: true,
         margin: 10,
         nav: true,
         loop: true,
         responsive: {
             0: {
-                items: 2
+                items: 1
             },
             600: {
                 items: 3
