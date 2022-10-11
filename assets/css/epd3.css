@@ -11,9 +11,11 @@
     }
     
     .button:hover,
-    .button:focus {
-        background-color: #111;
-        border-color: #000646;
+    .button:focus,
+    .button:active {
+        background-color: #233142;
+        border-color: #233142;
+        box-shadow: none;
     }
     
     img {
@@ -93,7 +95,13 @@
     
     @media screen and (max-width: 567px) {
         .who-are-we {
-            font-size: smaller;
+            font-size: 20px;
+        }
+        .we-are img {
+            padding: 30px;
+        }
+        .who-are-we {
+            margin: 0;
         }
     }
     /* end we-are */
@@ -145,13 +153,24 @@
         margin: 40px;
     }
     
+    .works h2 {
+        border-right: 3px solid #57b7e6;
+        text-align: initial;
+        padding: 5px 20px;
+        margin-right: 10px;
+    }
+    
+    .our-work .card {
+        margin-bottom: 25px;
+    }
+    
     .our-work .card a {
-        position: relative;
+        position: absolute;
         left: 0;
         right: 0;
+        top: 0;
+        bottom: 0;
         z-index: 2;
-        text-decoration: none;
-        color: #233142
     }
     
     .our-work img {
@@ -162,6 +181,36 @@
         background-color: #233142;
         width: 200px;
         margin-bottom: 2rem;
+        box-shadow: none;
+    }
+    
+    .page-nav {
+        height: 60px
+    }
+    
+    .page-nav ul {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        padding-top: 10px;
+    }
+    
+    .page-nav {
+        height: 60px
+    }
+    
+    .page-nav ul {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        padding-top: 10px;
+    }
+    
+    @media screen and (max-width:567px) {
+        .works .our-project .container {
+            padding-left: 0;
+            padding-right: 0;
+        }
     }
     /* end our-works */
     /* start article */
@@ -221,6 +270,8 @@
     
     .icon a {
         padding: 10px;
+        text-decoration: none;
+        color: white;
     }
     
     @media screen and (max-width:990px) {
