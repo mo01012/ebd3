@@ -438,8 +438,8 @@
     }
     
     @media screen and (max-width:425px) {
-        .card-carousel .prev,
-        .card-carousel .next {
+        .card-carousel .my-card.prev,
+        .card-carousel .my-card.next {
             display: none;
         }
     }
