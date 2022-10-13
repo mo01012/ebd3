@@ -321,7 +321,7 @@
     }
     
     .card-carousel .my-card {
-        width: 24rem;
+        width: 12rem;
         position: relative;
         z-index: 1;
         -webkit-transform: scale(0.6) translateY(-2rem);

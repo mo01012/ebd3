@@ -96,10 +96,10 @@ $(document).ready(function() {
             $('.active').next().trigger('click');
         }
     });
-    $(".right").click(function() {
+    $(".left").click(function() {
         $('.active').next().trigger('click');
     })
-    $(".left").click(function() {
+    $(".right").click(function() {
         $('.active').prev().trigger('click');
     })
 
