@@ -321,12 +321,13 @@
     }
     
     .card-carousel .my-card {
-        width: 12rem;
+        width: 10rem;
         position: relative;
         z-index: 1;
         -webkit-transform: scale(0.6) translateY(-2rem);
         transform: scale(0.6) translateY(-2rem);
         opacity: 0;
+        display: none;
         cursor: pointer;
         pointer-events: none;
         transition: 1s;
@@ -349,6 +350,7 @@
         -webkit-transform: scale(1) translateY(0) translateX(0);
         transform: scale(1) translateY(0) translateX(0);
         opacity: 1;
+        display: block;
         pointer-events: auto;
         transition: 1s;
     }
@@ -359,6 +361,7 @@
         -webkit-transform: scale(0.8) translateY(-1rem) translateX(0);
         transform: scale(0.8) translateY(-1rem) translateX(0);
         opacity: 0.6;
+        display: block;
         pointer-events: auto;
         transition: 1s;
     }
