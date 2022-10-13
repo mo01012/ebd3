@@ -436,4 +436,11 @@
         color: #fff;
         background-color: #000;
     }
+    
+    @media screen and (max-width:425px) {
+        .card-carousel .prev,
+        .card-carousel .next {
+            display: none;
+        }
+    }
     /* end carousel */
