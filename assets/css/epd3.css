@@ -458,6 +458,7 @@
     
     .art {
         font-size: 25px;
+        padding: 25px;
     }
     
     .round {
@@ -466,8 +467,10 @@
         box-shadow: 5px 0px 15px 5px #dcdcdc
     }
     
-    .round+.card-body {
-        padding: 5px;
-        padding-top: 15px;
+    @media screen and (max-width:550px) {
+        .round+.card-body {
+            padding: 5px;
+            padding-top: 15px;
+        }
     }
     /* end the article */
