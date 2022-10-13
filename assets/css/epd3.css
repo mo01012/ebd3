@@ -310,7 +310,9 @@
     /* start porject-page */
     
     .project-details {
-        background-image: url(../imgs/details-bg.png)
+        background-image: url(../imgs/details-bg.png);
+        background-size: cover;
+        background-repeat: no-repeat;
     }
     
     .card-carousel {
