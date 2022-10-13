@@ -216,7 +216,8 @@
     /* start article */
     
     .article .card,
-    .our-work .card {
+    .our-work .card,
+    .our-project .card {
         border: 2px;
         border-radius: 1.5rem;
         box-shadow: 5px 0px 15px 5px rgb(0 0 0 / 50%);
@@ -299,11 +300,14 @@
             max-width: 200px;
             margin-bottom: 30px;
         }
+        .contact {
+            margin-top: 10px;
+        }
     }
     
     @media screen and (max-width:425px) {
         .footer .w img:only-child {
-            max-width: 250px;
+            max-width: 200px;
         }
     }
     /* end footer */
@@ -430,17 +434,40 @@
     
     button {
         border: none;
-        font-size: 30px;
-        width: 30px;
+        font-size: 15px;
+        width: 15px;
         margin: 0 10px;
         color: #fff;
         background-color: #000;
     }
     
-    @media screen and (max-width:425px) {
+    @media screen and (max-width:990px) {
+        .my-card {
+            max-width: 120px;
+        }
+    }
+    
+    @media screen and (max-width:550px) {
         .card-carousel .my-card.prev,
         .card-carousel .my-card.next {
             display: none;
         }
     }
-    /* end carousel */
+    /* end porject-page */
+    /* start the article */
+    
+    .art {
+        font-size: 25px;
+    }
+    
+    .round {
+        border-radius: 25px;
+        max-width: 300px;
+        box-shadow: 5px 0px 15px 5px #dcdcdc
+    }
+    
+    .round+.card-body {
+        padding: 5px;
+        padding-top: 15px;
+    }
+    /* end the article */
